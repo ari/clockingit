@@ -1,0 +1,13 @@
+This repository has been renamed and move to http://github.com/ari/jobsworth
+
+In order to adjust your git clones, please do the following:
+
+  git remote set-url origin git://github.com/ari/jobsworth.git
+
+or this (if your corporate firewall prevents your use of the git protocol):
+
+   git remote set-url origin https://github.com/ari/jobsworth.git
+
+If you used a different remote name instead of "origin" then naturally you'll want to substitute that. If you don't know what that means, then 'origin' is probably what you want.
+
+The above actions will not change any code you checked out locally, so you can do this even while you have a system in production, ready for the next upgrade you'll perform.
